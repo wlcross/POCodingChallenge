@@ -17,6 +17,7 @@ public class September19Tests {
 	@Test
 	void sumTest() {
 		String[] testString = {"ab1231da"};
-		assertEquals(SumDigits.sum(1, testString), 7);
+		int[] expectedResult = {7};
+		assertArrayEquals(SumDigits.sum(1, testString), expectedResult);
 	}
 }
